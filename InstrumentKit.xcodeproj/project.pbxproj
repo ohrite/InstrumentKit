@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D8220116E4A429898835095 /* libPods-InstrumentKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 368B56C965CD4DD3BA990739 /* libPods-InstrumentKitTests.a */; };
+		AEC61E6216EE60360029DE53 /* NSObjectSwizzleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61E6116EE60360029DE53 /* NSObjectSwizzleSpec.m */; };
+		AEC61E6516EE607E0029DE53 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61E6416EE607E0029DE53 /* NSObject+Swizzle.m */; };
+		AEC61E6E16EE7D190029DE53 /* IKViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61E6D16EE7D190029DE53 /* IKViewSpec.m */; };
+		AEC61E7116EE7EF20029DE53 /* IKView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61E7016EE7EF20029DE53 /* IKView.m */; };
 		AEF792F216EE4CF800798790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF792F116EE4CF800798790 /* Foundation.framework */; };
 		AEF792F716EE4CF800798790 /* InstrumentKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF792F616EE4CF800798790 /* InstrumentKit.h */; };
 		AEF792F916EE4CF800798790 /* InstrumentKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF792F816EE4CF800798790 /* InstrumentKit.m */; };
@@ -15,7 +20,7 @@
 		AEF7930416EE4CF800798790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF792F116EE4CF800798790 /* Foundation.framework */; };
 		AEF7930716EE4CF800798790 /* libInstrumentKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF792EE16EE4CF800798790 /* libInstrumentKit.a */; };
 		AEF7930D16EE4CF800798790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEF7930B16EE4CF800798790 /* InfoPlist.strings */; };
-		AEF7931016EE4CF800798790 /* InstrumentKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF7930F16EE4CF800798790 /* InstrumentKitTests.m */; };
+		AEF7931016EE4CF800798790 /* InstrumentKitSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF7930F16EE4CF800798790 /* InstrumentKitSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26AD90601D21406BA4672F67 /* Pods-InstrumentKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstrumentKitTests.xcconfig"; path = "Pods/Pods-InstrumentKitTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		368B56C965CD4DD3BA990739 /* libPods-InstrumentKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstrumentKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC61E6116EE60360029DE53 /* NSObjectSwizzleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectSwizzleSpec.m; sourceTree = "<group>"; };
+		AEC61E6316EE607E0029DE53 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		AEC61E6416EE607E0029DE53 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		AEC61E6D16EE7D190029DE53 /* IKViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKViewSpec.m; sourceTree = "<group>"; };
+		AEC61E6F16EE7EF20029DE53 /* IKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKView.h; sourceTree = "<group>"; };
+		AEC61E7016EE7EF20029DE53 /* IKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKView.m; sourceTree = "<group>"; };
 		AEF792EE16EE4CF800798790 /* libInstrumentKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInstrumentKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF792F116EE4CF800798790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEF792F516EE4CF800798790 /* InstrumentKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstrumentKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -52,8 +65,7 @@
 		AEF7930216EE4CF800798790 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AEF7930A16EE4CF800798790 /* InstrumentKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstrumentKitTests-Info.plist"; sourceTree = "<group>"; };
 		AEF7930C16EE4CF800798790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AEF7930E16EE4CF800798790 /* InstrumentKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstrumentKitTests.h; sourceTree = "<group>"; };
-		AEF7930F16EE4CF800798790 /* InstrumentKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstrumentKitTests.m; sourceTree = "<group>"; };
+		AEF7930F16EE4CF800798790 /* InstrumentKitSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstrumentKitSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,7 @@
 				AEF7930316EE4CF800798790 /* UIKit.framework in Frameworks */,
 				AEF7930416EE4CF800798790 /* Foundation.framework in Frameworks */,
 				AEF7930716EE4CF800798790 /* libInstrumentKit.a in Frameworks */,
+				6D8220116E4A429898835095 /* libPods-InstrumentKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +99,7 @@
 				AEF7930816EE4CF800798790 /* InstrumentKitTests */,
 				AEF792F016EE4CF800798790 /* Frameworks */,
 				AEF792EF16EE4CF800798790 /* Products */,
+				26AD90601D21406BA4672F67 /* Pods-InstrumentKitTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +118,7 @@
 				AEF792F116EE4CF800798790 /* Foundation.framework */,
 				AEF7930016EE4CF800798790 /* SenTestingKit.framework */,
 				AEF7930216EE4CF800798790 /* UIKit.framework */,
+				368B56C965CD4DD3BA990739 /* libPods-InstrumentKitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,6 +129,10 @@
 				AEF792F616EE4CF800798790 /* InstrumentKit.h */,
 				AEF792F816EE4CF800798790 /* InstrumentKit.m */,
 				AEF792F416EE4CF800798790 /* Supporting Files */,
+				AEC61E6316EE607E0029DE53 /* NSObject+Swizzle.h */,
+				AEC61E6416EE607E0029DE53 /* NSObject+Swizzle.m */,
+				AEC61E6F16EE7EF20029DE53 /* IKView.h */,
+				AEC61E7016EE7EF20029DE53 /* IKView.m */,
 			);
 			path = InstrumentKit;
 			sourceTree = "<group>";
@@ -129,9 +148,10 @@
 		AEF7930816EE4CF800798790 /* InstrumentKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				AEF7930E16EE4CF800798790 /* InstrumentKitTests.h */,
-				AEF7930F16EE4CF800798790 /* InstrumentKitTests.m */,
+				AEF7930F16EE4CF800798790 /* InstrumentKitSpec.m */,
 				AEF7930916EE4CF800798790 /* Supporting Files */,
+				AEC61E6116EE60360029DE53 /* NSObjectSwizzleSpec.m */,
+				AEC61E6D16EE7D190029DE53 /* IKViewSpec.m */,
 			);
 			path = InstrumentKitTests;
 			sourceTree = "<group>";
@@ -173,6 +193,7 @@
 				AEF792FB16EE4CF800798790 /* Frameworks */,
 				AEF792FC16EE4CF800798790 /* Resources */,
 				AEF792FD16EE4CF800798790 /* ShellScript */,
+				0BADE01F7A164851913FB9D1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +244,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0BADE01F7A164851913FB9D1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-InstrumentKitTests-resources.sh\"\n";
+		};
 		AEF792FD16EE4CF800798790 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF792F916EE4CF800798790 /* InstrumentKit.m in Sources */,
+				AEC61E6516EE607E0029DE53 /* NSObject+Swizzle.m in Sources */,
+				AEC61E7116EE7EF20029DE53 /* IKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF7931016EE4CF800798790 /* InstrumentKitTests.m in Sources */,
+				AEF7931016EE4CF800798790 /* InstrumentKitSpec.m in Sources */,
+				AEC61E6216EE60360029DE53 /* NSObjectSwizzleSpec.m in Sources */,
+				AEC61E6E16EE7D190029DE53 /* IKViewSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +395,7 @@
 		};
 		AEF7931716EE4CF800798790 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26AD90601D21406BA4672F67 /* Pods-InstrumentKitTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -371,6 +411,7 @@
 		};
 		AEF7931816EE4CF800798790 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26AD90601D21406BA4672F67 /* Pods-InstrumentKitTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -403,6 +444,7 @@
 				AEF7931516EE4CF800798790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEF7931616EE4CF800798790 /* Build configuration list for PBXNativeTarget "InstrumentKitTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +453,7 @@
 				AEF7931816EE4CF800798790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

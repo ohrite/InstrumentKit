@@ -10,4 +10,7 @@
 
 @implementation InstrumentKit
 
++ (void)addTouchInterceptor:(IKTouchInterceptor)interceptor toApplication:(UIApplication *)application {
+}
+
 @end
