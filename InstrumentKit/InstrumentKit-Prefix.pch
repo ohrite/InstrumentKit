@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'InstrumentKit' target in the 'InstrumentKit' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
